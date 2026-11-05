@@ -1,0 +1,39 @@
+      body{
+        background-color: rgb(25, 25, 25);
+        color:white;
+        font-family:Arial,sans-serif;
+      }
+      .style-title{
+        font-size:25px;
+        font-weight:bold;
+      }
+
+
+       img{
+        height:50px;
+      }
+
+     .pick-div button{
+      background-color:transparent;
+      border:3px solid white;
+      height:100px;
+      width:100px;
+      border-radius:50px;
+      cursor:pointer;
+      margin-right:10px;
+
+      }
+      .js-result {
+        font-size:20px;
+        font-weight:bold;
+      }
+      .js-score{
+        margin-top:50px;
+      }
+      .reset-button , .autoPlayButton{
+        border:none;
+        background-color:white;
+        color:black;
+        padding:10px 14px;
+        cursor:pointer;
+      }
