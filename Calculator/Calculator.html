@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="Calculator.css">
+
+  </head>
+  <body>
+
+    <p class="js-result-calc"> </p>
+
+    <p>
+      <button onclick="
+        calculation('1');
+      " class="num";>1</button>
+
+      <button onclick="
+      calculation('2');
+      " class="num";>2</button>
+
+      <button onclick="
+      calculation('3');
+      " class="num";>3</button>
+
+      <button onclick="
+      calculation('+');
+      "class="operator";>+</button>
+    </p>
+
+    <p>
+      <button onclick="
+        calculation('4');
+      " class="num";>4</button>
+
+      <button onclick="
+      calculation('5');
+      " class="num";>5</button>
+
+      <button onclick="
+      calculation('6');
+      " class="num";>6</button>
+
+      <button onclick="
+      calculation('-');
+      "class="operator";>-</button>
+    </p>
+
+    <p>
+      <button onclick="
+      calculation('7');
+      " class="num";>7</button>
+
+      <button onclick="
+       calculation('8');
+      " class="num";>8</button>
+
+      <button onclick="
+        calculation('9');
+      " class="num";>9</button>
+
+      <button onclick="
+        calculation('*');
+      "class="operator";>*</button>
+    </p>
+
+    <p>
+      <button onclick="
+       calculation('0');
+      " class="num";>0</button>
+
+      <button onclick="
+      calculation('.');
+      " class="num";>.</button>
+
+      <button onclick="
+      total_evaluate();
+      " class="num";>=</button>
+
+      <button onclick="
+       calculation('/');
+      " class="operator";>/</button>
+    </p>
+
+    <p>
+      <button onclick="
+        localStorage.removeItem('calculation');
+        calc='';
+        document.querySelector('.js-result-calc').innerHTML=`Cleared`;
+      " class="clear";>Clear</button>
+    </p>
+
+    <script src="Calculator.js"> </script>
+  </body>
+</html>
