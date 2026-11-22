@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>To-Do-List</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+  <p>Todo List 1</p>
+
+  <input placeholder="Todo name" onkeydown="inputKeyDown(event)" class="js-taskName">
+
+  <input type="date" class="js-dueDate">
+
+  <button onclick="addFunc();" class="addButton"> Add </button>
+
+  <button class="clearButton" onclick="removeStorage();">Clear List</button>
+
+  <div class="todo-div">
+    
+  </div>
+
+  <script src="todo.js">    
+  </script>
+  
+</body>
+</html>
